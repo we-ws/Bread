@@ -1,0 +1,3 @@
+D:/Bread/build/CMakeFiles/Bread.dir
+D:/Bread/build/CMakeFiles/edit_cache.dir
+D:/Bread/build/CMakeFiles/rebuild_cache.dir

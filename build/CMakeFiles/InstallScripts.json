@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/Bread/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

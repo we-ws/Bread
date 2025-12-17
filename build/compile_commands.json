@@ -1,0 +1,338 @@
+[
+{
+  "directory": "D:/Bread/build",
+  "command": "C:\\MSYS64~1\\ucrt64\\bin\\cc.exe -ID:/Bread/src -ID:/Bread/core -ID:/Bread/utils -ID:/Bread/ui -ID:/Bread/imgui -ID:/Bread/imgui/backends -ID:/msys64/mingw64/include -O3 -DNDEBUG -std=c11 -Wall -Wextra -Wconversion -o CMakeFiles\\Bread.dir\\CMakeFiles\\4.2.0\\CompilerIdC\\CMakeCCompilerId.c.obj -c D:\\Bread\\build\\CMakeFiles\\4.2.0\\CompilerIdC\\CMakeCCompilerId.c",
+  "file": "D:/Bread/build/CMakeFiles/4.2.0/CompilerIdC/CMakeCCompilerId.c",
+  "output": "D:/Bread/build/CMakeFiles/Bread.dir/CMakeFiles/4.2.0/CompilerIdC/CMakeCCompilerId.c.obj"
+},
+{
+  "directory": "D:/Bread/build",
+  "command": "C:\\MSYS64~1\\ucrt64\\bin\\c++.exe -ID:/Bread/src -ID:/Bread/core -ID:/Bread/utils -ID:/Bread/ui -ID:/Bread/imgui -ID:/Bread/imgui/backends -ID:/msys64/mingw64/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wfloat-conversion -fmodules-ts -fmodule-mapper=CMakeFiles\\Bread.dir\\CMakeFiles\\4.2.0\\CompilerIdCXX\\CMakeCXXCompilerId.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bread.dir\\CMakeFiles\\4.2.0\\CompilerIdCXX\\CMakeCXXCompilerId.cpp.obj -c D:\\Bread\\build\\CMakeFiles\\4.2.0\\CompilerIdCXX\\CMakeCXXCompilerId.cpp",
+  "file": "D:/Bread/build/CMakeFiles/4.2.0/CompilerIdCXX/CMakeCXXCompilerId.cpp",
+  "output": "D:/Bread/build/CMakeFiles/Bread.dir/CMakeFiles/4.2.0/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj"
+},
+{
+  "directory": "D:/Bread/build",
+  "command": "C:\\MSYS64~1\\ucrt64\\bin\\c++.exe -ID:/Bread/src -ID:/Bread/core -ID:/Bread/utils -ID:/Bread/ui -ID:/Bread/imgui -ID:/Bread/imgui/backends -ID:/msys64/mingw64/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wfloat-conversion -fmodules-ts -fmodule-mapper=CMakeFiles\\Bread.dir\\imgui\\backends\\imgui_impl_allegro5.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bread.dir\\imgui\\backends\\imgui_impl_allegro5.cpp.obj -c D:\\Bread\\imgui\\backends\\imgui_impl_allegro5.cpp",
+  "file": "D:/Bread/imgui/backends/imgui_impl_allegro5.cpp",
+  "output": "D:/Bread/build/CMakeFiles/Bread.dir/imgui/backends/imgui_impl_allegro5.cpp.obj"
+},
+{
+  "directory": "D:/Bread/build",
+  "command": "C:\\MSYS64~1\\ucrt64\\bin\\c++.exe -ID:/Bread/src -ID:/Bread/core -ID:/Bread/utils -ID:/Bread/ui -ID:/Bread/imgui -ID:/Bread/imgui/backends -ID:/msys64/mingw64/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wfloat-conversion -fmodules-ts -fmodule-mapper=CMakeFiles\\Bread.dir\\imgui\\backends\\imgui_impl_android.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bread.dir\\imgui\\backends\\imgui_impl_android.cpp.obj -c D:\\Bread\\imgui\\backends\\imgui_impl_android.cpp",
+  "file": "D:/Bread/imgui/backends/imgui_impl_android.cpp",
+  "output": "D:/Bread/build/CMakeFiles/Bread.dir/imgui/backends/imgui_impl_android.cpp.obj"
+},
+{
+  "directory": "D:/Bread/build",
+  "command": "C:\\MSYS64~1\\ucrt64\\bin\\c++.exe -ID:/Bread/src -ID:/Bread/core -ID:/Bread/utils -ID:/Bread/ui -ID:/Bread/imgui -ID:/Bread/imgui/backends -ID:/msys64/mingw64/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wfloat-conversion -fmodules-ts -fmodule-mapper=CMakeFiles\\Bread.dir\\imgui\\backends\\imgui_impl_dx10.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bread.dir\\imgui\\backends\\imgui_impl_dx10.cpp.obj -c D:\\Bread\\imgui\\backends\\imgui_impl_dx10.cpp",
+  "file": "D:/Bread/imgui/backends/imgui_impl_dx10.cpp",
+  "output": "D:/Bread/build/CMakeFiles/Bread.dir/imgui/backends/imgui_impl_dx10.cpp.obj"
+},
+{
+  "directory": "D:/Bread/build",
+  "command": "C:\\MSYS64~1\\ucrt64\\bin\\c++.exe -ID:/Bread/src -ID:/Bread/core -ID:/Bread/utils -ID:/Bread/ui -ID:/Bread/imgui -ID:/Bread/imgui/backends -ID:/msys64/mingw64/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wfloat-conversion -fmodules-ts -fmodule-mapper=CMakeFiles\\Bread.dir\\imgui\\backends\\imgui_impl_dx11.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bread.dir\\imgui\\backends\\imgui_impl_dx11.cpp.obj -c D:\\Bread\\imgui\\backends\\imgui_impl_dx11.cpp",
+  "file": "D:/Bread/imgui/backends/imgui_impl_dx11.cpp",
+  "output": "D:/Bread/build/CMakeFiles/Bread.dir/imgui/backends/imgui_impl_dx11.cpp.obj"
+},
+{
+  "directory": "D:/Bread/build",
+  "command": "C:\\MSYS64~1\\ucrt64\\bin\\c++.exe -ID:/Bread/src -ID:/Bread/core -ID:/Bread/utils -ID:/Bread/ui -ID:/Bread/imgui -ID:/Bread/imgui/backends -ID:/msys64/mingw64/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wfloat-conversion -fmodules-ts -fmodule-mapper=CMakeFiles\\Bread.dir\\imgui\\backends\\imgui_impl_dx12.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bread.dir\\imgui\\backends\\imgui_impl_dx12.cpp.obj -c D:\\Bread\\imgui\\backends\\imgui_impl_dx12.cpp",
+  "file": "D:/Bread/imgui/backends/imgui_impl_dx12.cpp",
+  "output": "D:/Bread/build/CMakeFiles/Bread.dir/imgui/backends/imgui_impl_dx12.cpp.obj"
+},
+{
+  "directory": "D:/Bread/build",
+  "command": "C:\\MSYS64~1\\ucrt64\\bin\\c++.exe -ID:/Bread/src -ID:/Bread/core -ID:/Bread/utils -ID:/Bread/ui -ID:/Bread/imgui -ID:/Bread/imgui/backends -ID:/msys64/mingw64/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wfloat-conversion -fmodules-ts -fmodule-mapper=CMakeFiles\\Bread.dir\\imgui\\backends\\imgui_impl_dx9.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bread.dir\\imgui\\backends\\imgui_impl_dx9.cpp.obj -c D:\\Bread\\imgui\\backends\\imgui_impl_dx9.cpp",
+  "file": "D:/Bread/imgui/backends/imgui_impl_dx9.cpp",
+  "output": "D:/Bread/build/CMakeFiles/Bread.dir/imgui/backends/imgui_impl_dx9.cpp.obj"
+},
+{
+  "directory": "D:/Bread/build",
+  "command": "C:\\MSYS64~1\\ucrt64\\bin\\c++.exe -ID:/Bread/src -ID:/Bread/core -ID:/Bread/utils -ID:/Bread/ui -ID:/Bread/imgui -ID:/Bread/imgui/backends -ID:/msys64/mingw64/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wfloat-conversion -fmodules-ts -fmodule-mapper=CMakeFiles\\Bread.dir\\imgui\\backends\\imgui_impl_glfw.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bread.dir\\imgui\\backends\\imgui_impl_glfw.cpp.obj -c D:\\Bread\\imgui\\backends\\imgui_impl_glfw.cpp",
+  "file": "D:/Bread/imgui/backends/imgui_impl_glfw.cpp",
+  "output": "D:/Bread/build/CMakeFiles/Bread.dir/imgui/backends/imgui_impl_glfw.cpp.obj"
+},
+{
+  "directory": "D:/Bread/build",
+  "command": "C:\\MSYS64~1\\ucrt64\\bin\\c++.exe -ID:/Bread/src -ID:/Bread/core -ID:/Bread/utils -ID:/Bread/ui -ID:/Bread/imgui -ID:/Bread/imgui/backends -ID:/msys64/mingw64/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wfloat-conversion -fmodules-ts -fmodule-mapper=CMakeFiles\\Bread.dir\\imgui\\backends\\imgui_impl_glut.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bread.dir\\imgui\\backends\\imgui_impl_glut.cpp.obj -c D:\\Bread\\imgui\\backends\\imgui_impl_glut.cpp",
+  "file": "D:/Bread/imgui/backends/imgui_impl_glut.cpp",
+  "output": "D:/Bread/build/CMakeFiles/Bread.dir/imgui/backends/imgui_impl_glut.cpp.obj"
+},
+{
+  "directory": "D:/Bread/build",
+  "command": "C:\\MSYS64~1\\ucrt64\\bin\\c++.exe -ID:/Bread/src -ID:/Bread/core -ID:/Bread/utils -ID:/Bread/ui -ID:/Bread/imgui -ID:/Bread/imgui/backends -ID:/msys64/mingw64/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wfloat-conversion -fmodules-ts -fmodule-mapper=CMakeFiles\\Bread.dir\\imgui\\backends\\imgui_impl_null.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bread.dir\\imgui\\backends\\imgui_impl_null.cpp.obj -c D:\\Bread\\imgui\\backends\\imgui_impl_null.cpp",
+  "file": "D:/Bread/imgui/backends/imgui_impl_null.cpp",
+  "output": "D:/Bread/build/CMakeFiles/Bread.dir/imgui/backends/imgui_impl_null.cpp.obj"
+},
+{
+  "directory": "D:/Bread/build",
+  "command": "C:\\MSYS64~1\\ucrt64\\bin\\c++.exe -ID:/Bread/src -ID:/Bread/core -ID:/Bread/utils -ID:/Bread/ui -ID:/Bread/imgui -ID:/Bread/imgui/backends -ID:/msys64/mingw64/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wfloat-conversion -fmodules-ts -fmodule-mapper=CMakeFiles\\Bread.dir\\imgui\\backends\\imgui_impl_opengl2.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bread.dir\\imgui\\backends\\imgui_impl_opengl2.cpp.obj -c D:\\Bread\\imgui\\backends\\imgui_impl_opengl2.cpp",
+  "file": "D:/Bread/imgui/backends/imgui_impl_opengl2.cpp",
+  "output": "D:/Bread/build/CMakeFiles/Bread.dir/imgui/backends/imgui_impl_opengl2.cpp.obj"
+},
+{
+  "directory": "D:/Bread/build",
+  "command": "C:\\MSYS64~1\\ucrt64\\bin\\c++.exe -ID:/Bread/src -ID:/Bread/core -ID:/Bread/utils -ID:/Bread/ui -ID:/Bread/imgui -ID:/Bread/imgui/backends -ID:/msys64/mingw64/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wfloat-conversion -fmodules-ts -fmodule-mapper=CMakeFiles\\Bread.dir\\imgui\\backends\\imgui_impl_opengl3.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bread.dir\\imgui\\backends\\imgui_impl_opengl3.cpp.obj -c D:\\Bread\\imgui\\backends\\imgui_impl_opengl3.cpp",
+  "file": "D:/Bread/imgui/backends/imgui_impl_opengl3.cpp",
+  "output": "D:/Bread/build/CMakeFiles/Bread.dir/imgui/backends/imgui_impl_opengl3.cpp.obj"
+},
+{
+  "directory": "D:/Bread/build",
+  "command": "C:\\MSYS64~1\\ucrt64\\bin\\c++.exe -ID:/Bread/src -ID:/Bread/core -ID:/Bread/utils -ID:/Bread/ui -ID:/Bread/imgui -ID:/Bread/imgui/backends -ID:/msys64/mingw64/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wfloat-conversion -fmodules-ts -fmodule-mapper=CMakeFiles\\Bread.dir\\imgui\\backends\\imgui_impl_sdl2.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bread.dir\\imgui\\backends\\imgui_impl_sdl2.cpp.obj -c D:\\Bread\\imgui\\backends\\imgui_impl_sdl2.cpp",
+  "file": "D:/Bread/imgui/backends/imgui_impl_sdl2.cpp",
+  "output": "D:/Bread/build/CMakeFiles/Bread.dir/imgui/backends/imgui_impl_sdl2.cpp.obj"
+},
+{
+  "directory": "D:/Bread/build",
+  "command": "C:\\MSYS64~1\\ucrt64\\bin\\c++.exe -ID:/Bread/src -ID:/Bread/core -ID:/Bread/utils -ID:/Bread/ui -ID:/Bread/imgui -ID:/Bread/imgui/backends -ID:/msys64/mingw64/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wfloat-conversion -fmodules-ts -fmodule-mapper=CMakeFiles\\Bread.dir\\imgui\\backends\\imgui_impl_sdl3.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bread.dir\\imgui\\backends\\imgui_impl_sdl3.cpp.obj -c D:\\Bread\\imgui\\backends\\imgui_impl_sdl3.cpp",
+  "file": "D:/Bread/imgui/backends/imgui_impl_sdl3.cpp",
+  "output": "D:/Bread/build/CMakeFiles/Bread.dir/imgui/backends/imgui_impl_sdl3.cpp.obj"
+},
+{
+  "directory": "D:/Bread/build",
+  "command": "C:\\MSYS64~1\\ucrt64\\bin\\c++.exe -ID:/Bread/src -ID:/Bread/core -ID:/Bread/utils -ID:/Bread/ui -ID:/Bread/imgui -ID:/Bread/imgui/backends -ID:/msys64/mingw64/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wfloat-conversion -fmodules-ts -fmodule-mapper=CMakeFiles\\Bread.dir\\imgui\\backends\\imgui_impl_sdlgpu3.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bread.dir\\imgui\\backends\\imgui_impl_sdlgpu3.cpp.obj -c D:\\Bread\\imgui\\backends\\imgui_impl_sdlgpu3.cpp",
+  "file": "D:/Bread/imgui/backends/imgui_impl_sdlgpu3.cpp",
+  "output": "D:/Bread/build/CMakeFiles/Bread.dir/imgui/backends/imgui_impl_sdlgpu3.cpp.obj"
+},
+{
+  "directory": "D:/Bread/build",
+  "command": "C:\\MSYS64~1\\ucrt64\\bin\\c++.exe -ID:/Bread/src -ID:/Bread/core -ID:/Bread/utils -ID:/Bread/ui -ID:/Bread/imgui -ID:/Bread/imgui/backends -ID:/msys64/mingw64/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wfloat-conversion -fmodules-ts -fmodule-mapper=CMakeFiles\\Bread.dir\\imgui\\backends\\imgui_impl_sdlrenderer2.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bread.dir\\imgui\\backends\\imgui_impl_sdlrenderer2.cpp.obj -c D:\\Bread\\imgui\\backends\\imgui_impl_sdlrenderer2.cpp",
+  "file": "D:/Bread/imgui/backends/imgui_impl_sdlrenderer2.cpp",
+  "output": "D:/Bread/build/CMakeFiles/Bread.dir/imgui/backends/imgui_impl_sdlrenderer2.cpp.obj"
+},
+{
+  "directory": "D:/Bread/build",
+  "command": "C:\\MSYS64~1\\ucrt64\\bin\\c++.exe -ID:/Bread/src -ID:/Bread/core -ID:/Bread/utils -ID:/Bread/ui -ID:/Bread/imgui -ID:/Bread/imgui/backends -ID:/msys64/mingw64/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wfloat-conversion -fmodules-ts -fmodule-mapper=CMakeFiles\\Bread.dir\\imgui\\backends\\imgui_impl_sdlrenderer3.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bread.dir\\imgui\\backends\\imgui_impl_sdlrenderer3.cpp.obj -c D:\\Bread\\imgui\\backends\\imgui_impl_sdlrenderer3.cpp",
+  "file": "D:/Bread/imgui/backends/imgui_impl_sdlrenderer3.cpp",
+  "output": "D:/Bread/build/CMakeFiles/Bread.dir/imgui/backends/imgui_impl_sdlrenderer3.cpp.obj"
+},
+{
+  "directory": "D:/Bread/build",
+  "command": "C:\\MSYS64~1\\ucrt64\\bin\\c++.exe -ID:/Bread/src -ID:/Bread/core -ID:/Bread/utils -ID:/Bread/ui -ID:/Bread/imgui -ID:/Bread/imgui/backends -ID:/msys64/mingw64/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wfloat-conversion -fmodules-ts -fmodule-mapper=CMakeFiles\\Bread.dir\\imgui\\backends\\imgui_impl_vulkan.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bread.dir\\imgui\\backends\\imgui_impl_vulkan.cpp.obj -c D:\\Bread\\imgui\\backends\\imgui_impl_vulkan.cpp",
+  "file": "D:/Bread/imgui/backends/imgui_impl_vulkan.cpp",
+  "output": "D:/Bread/build/CMakeFiles/Bread.dir/imgui/backends/imgui_impl_vulkan.cpp.obj"
+},
+{
+  "directory": "D:/Bread/build",
+  "command": "C:\\MSYS64~1\\ucrt64\\bin\\c++.exe -ID:/Bread/src -ID:/Bread/core -ID:/Bread/utils -ID:/Bread/ui -ID:/Bread/imgui -ID:/Bread/imgui/backends -ID:/msys64/mingw64/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wfloat-conversion -fmodules-ts -fmodule-mapper=CMakeFiles\\Bread.dir\\imgui\\backends\\imgui_impl_wgpu.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bread.dir\\imgui\\backends\\imgui_impl_wgpu.cpp.obj -c D:\\Bread\\imgui\\backends\\imgui_impl_wgpu.cpp",
+  "file": "D:/Bread/imgui/backends/imgui_impl_wgpu.cpp",
+  "output": "D:/Bread/build/CMakeFiles/Bread.dir/imgui/backends/imgui_impl_wgpu.cpp.obj"
+},
+{
+  "directory": "D:/Bread/build",
+  "command": "C:\\MSYS64~1\\ucrt64\\bin\\c++.exe -ID:/Bread/src -ID:/Bread/core -ID:/Bread/utils -ID:/Bread/ui -ID:/Bread/imgui -ID:/Bread/imgui/backends -ID:/msys64/mingw64/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wfloat-conversion -fmodules-ts -fmodule-mapper=CMakeFiles\\Bread.dir\\imgui\\backends\\imgui_impl_win32.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bread.dir\\imgui\\backends\\imgui_impl_win32.cpp.obj -c D:\\Bread\\imgui\\backends\\imgui_impl_win32.cpp",
+  "file": "D:/Bread/imgui/backends/imgui_impl_win32.cpp",
+  "output": "D:/Bread/build/CMakeFiles/Bread.dir/imgui/backends/imgui_impl_win32.cpp.obj"
+},
+{
+  "directory": "D:/Bread/build",
+  "command": "C:\\MSYS64~1\\ucrt64\\bin\\c++.exe -ID:/Bread/src -ID:/Bread/core -ID:/Bread/utils -ID:/Bread/ui -ID:/Bread/imgui -ID:/Bread/imgui/backends -ID:/msys64/mingw64/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wfloat-conversion -fmodules-ts -fmodule-mapper=CMakeFiles\\Bread.dir\\imgui\\examples\\example_allegro5\\main.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bread.dir\\imgui\\examples\\example_allegro5\\main.cpp.obj -c D:\\Bread\\imgui\\examples\\example_allegro5\\main.cpp",
+  "file": "D:/Bread/imgui/examples/example_allegro5/main.cpp",
+  "output": "D:/Bread/build/CMakeFiles/Bread.dir/imgui/examples/example_allegro5/main.cpp.obj"
+},
+{
+  "directory": "D:/Bread/build",
+  "command": "C:\\MSYS64~1\\ucrt64\\bin\\c++.exe -ID:/Bread/src -ID:/Bread/core -ID:/Bread/utils -ID:/Bread/ui -ID:/Bread/imgui -ID:/Bread/imgui/backends -ID:/msys64/mingw64/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wfloat-conversion -fmodules-ts -fmodule-mapper=CMakeFiles\\Bread.dir\\imgui\\examples\\example_android_opengl3\\main.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bread.dir\\imgui\\examples\\example_android_opengl3\\main.cpp.obj -c D:\\Bread\\imgui\\examples\\example_android_opengl3\\main.cpp",
+  "file": "D:/Bread/imgui/examples/example_android_opengl3/main.cpp",
+  "output": "D:/Bread/build/CMakeFiles/Bread.dir/imgui/examples/example_android_opengl3/main.cpp.obj"
+},
+{
+  "directory": "D:/Bread/build",
+  "command": "C:\\MSYS64~1\\ucrt64\\bin\\c++.exe -ID:/Bread/src -ID:/Bread/core -ID:/Bread/utils -ID:/Bread/ui -ID:/Bread/imgui -ID:/Bread/imgui/backends -ID:/msys64/mingw64/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wfloat-conversion -fmodules-ts -fmodule-mapper=CMakeFiles\\Bread.dir\\imgui\\examples\\example_glfw_opengl2\\main.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bread.dir\\imgui\\examples\\example_glfw_opengl2\\main.cpp.obj -c D:\\Bread\\imgui\\examples\\example_glfw_opengl2\\main.cpp",
+  "file": "D:/Bread/imgui/examples/example_glfw_opengl2/main.cpp",
+  "output": "D:/Bread/build/CMakeFiles/Bread.dir/imgui/examples/example_glfw_opengl2/main.cpp.obj"
+},
+{
+  "directory": "D:/Bread/build",
+  "command": "C:\\MSYS64~1\\ucrt64\\bin\\c++.exe -ID:/Bread/src -ID:/Bread/core -ID:/Bread/utils -ID:/Bread/ui -ID:/Bread/imgui -ID:/Bread/imgui/backends -ID:/msys64/mingw64/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wfloat-conversion -fmodules-ts -fmodule-mapper=CMakeFiles\\Bread.dir\\imgui\\examples\\example_glfw_opengl3\\main.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bread.dir\\imgui\\examples\\example_glfw_opengl3\\main.cpp.obj -c D:\\Bread\\imgui\\examples\\example_glfw_opengl3\\main.cpp",
+  "file": "D:/Bread/imgui/examples/example_glfw_opengl3/main.cpp",
+  "output": "D:/Bread/build/CMakeFiles/Bread.dir/imgui/examples/example_glfw_opengl3/main.cpp.obj"
+},
+{
+  "directory": "D:/Bread/build",
+  "command": "C:\\MSYS64~1\\ucrt64\\bin\\c++.exe -ID:/Bread/src -ID:/Bread/core -ID:/Bread/utils -ID:/Bread/ui -ID:/Bread/imgui -ID:/Bread/imgui/backends -ID:/msys64/mingw64/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wfloat-conversion -fmodules-ts -fmodule-mapper=CMakeFiles\\Bread.dir\\imgui\\examples\\example_glfw_vulkan\\main.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bread.dir\\imgui\\examples\\example_glfw_vulkan\\main.cpp.obj -c D:\\Bread\\imgui\\examples\\example_glfw_vulkan\\main.cpp",
+  "file": "D:/Bread/imgui/examples/example_glfw_vulkan/main.cpp",
+  "output": "D:/Bread/build/CMakeFiles/Bread.dir/imgui/examples/example_glfw_vulkan/main.cpp.obj"
+},
+{
+  "directory": "D:/Bread/build",
+  "command": "C:\\MSYS64~1\\ucrt64\\bin\\c++.exe -ID:/Bread/src -ID:/Bread/core -ID:/Bread/utils -ID:/Bread/ui -ID:/Bread/imgui -ID:/Bread/imgui/backends -ID:/msys64/mingw64/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wfloat-conversion -fmodules-ts -fmodule-mapper=CMakeFiles\\Bread.dir\\imgui\\examples\\example_glfw_wgpu\\main.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bread.dir\\imgui\\examples\\example_glfw_wgpu\\main.cpp.obj -c D:\\Bread\\imgui\\examples\\example_glfw_wgpu\\main.cpp",
+  "file": "D:/Bread/imgui/examples/example_glfw_wgpu/main.cpp",
+  "output": "D:/Bread/build/CMakeFiles/Bread.dir/imgui/examples/example_glfw_wgpu/main.cpp.obj"
+},
+{
+  "directory": "D:/Bread/build",
+  "command": "C:\\MSYS64~1\\ucrt64\\bin\\c++.exe -ID:/Bread/src -ID:/Bread/core -ID:/Bread/utils -ID:/Bread/ui -ID:/Bread/imgui -ID:/Bread/imgui/backends -ID:/msys64/mingw64/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wfloat-conversion -fmodules-ts -fmodule-mapper=CMakeFiles\\Bread.dir\\imgui\\examples\\example_glut_opengl2\\main.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bread.dir\\imgui\\examples\\example_glut_opengl2\\main.cpp.obj -c D:\\Bread\\imgui\\examples\\example_glut_opengl2\\main.cpp",
+  "file": "D:/Bread/imgui/examples/example_glut_opengl2/main.cpp",
+  "output": "D:/Bread/build/CMakeFiles/Bread.dir/imgui/examples/example_glut_opengl2/main.cpp.obj"
+},
+{
+  "directory": "D:/Bread/build",
+  "command": "C:\\MSYS64~1\\ucrt64\\bin\\c++.exe -ID:/Bread/src -ID:/Bread/core -ID:/Bread/utils -ID:/Bread/ui -ID:/Bread/imgui -ID:/Bread/imgui/backends -ID:/msys64/mingw64/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wfloat-conversion -fmodules-ts -fmodule-mapper=CMakeFiles\\Bread.dir\\imgui\\examples\\example_null\\main.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bread.dir\\imgui\\examples\\example_null\\main.cpp.obj -c D:\\Bread\\imgui\\examples\\example_null\\main.cpp",
+  "file": "D:/Bread/imgui/examples/example_null/main.cpp",
+  "output": "D:/Bread/build/CMakeFiles/Bread.dir/imgui/examples/example_null/main.cpp.obj"
+},
+{
+  "directory": "D:/Bread/build",
+  "command": "C:\\MSYS64~1\\ucrt64\\bin\\c++.exe -ID:/Bread/src -ID:/Bread/core -ID:/Bread/utils -ID:/Bread/ui -ID:/Bread/imgui -ID:/Bread/imgui/backends -ID:/msys64/mingw64/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wfloat-conversion -fmodules-ts -fmodule-mapper=CMakeFiles\\Bread.dir\\imgui\\examples\\example_sdl2_directx11\\main.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bread.dir\\imgui\\examples\\example_sdl2_directx11\\main.cpp.obj -c D:\\Bread\\imgui\\examples\\example_sdl2_directx11\\main.cpp",
+  "file": "D:/Bread/imgui/examples/example_sdl2_directx11/main.cpp",
+  "output": "D:/Bread/build/CMakeFiles/Bread.dir/imgui/examples/example_sdl2_directx11/main.cpp.obj"
+},
+{
+  "directory": "D:/Bread/build",
+  "command": "C:\\MSYS64~1\\ucrt64\\bin\\c++.exe -ID:/Bread/src -ID:/Bread/core -ID:/Bread/utils -ID:/Bread/ui -ID:/Bread/imgui -ID:/Bread/imgui/backends -ID:/msys64/mingw64/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wfloat-conversion -fmodules-ts -fmodule-mapper=CMakeFiles\\Bread.dir\\imgui\\examples\\example_sdl2_opengl2\\main.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bread.dir\\imgui\\examples\\example_sdl2_opengl2\\main.cpp.obj -c D:\\Bread\\imgui\\examples\\example_sdl2_opengl2\\main.cpp",
+  "file": "D:/Bread/imgui/examples/example_sdl2_opengl2/main.cpp",
+  "output": "D:/Bread/build/CMakeFiles/Bread.dir/imgui/examples/example_sdl2_opengl2/main.cpp.obj"
+},
+{
+  "directory": "D:/Bread/build",
+  "command": "C:\\MSYS64~1\\ucrt64\\bin\\c++.exe -ID:/Bread/src -ID:/Bread/core -ID:/Bread/utils -ID:/Bread/ui -ID:/Bread/imgui -ID:/Bread/imgui/backends -ID:/msys64/mingw64/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wfloat-conversion -fmodules-ts -fmodule-mapper=CMakeFiles\\Bread.dir\\imgui\\examples\\example_sdl2_opengl3\\main.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bread.dir\\imgui\\examples\\example_sdl2_opengl3\\main.cpp.obj -c D:\\Bread\\imgui\\examples\\example_sdl2_opengl3\\main.cpp",
+  "file": "D:/Bread/imgui/examples/example_sdl2_opengl3/main.cpp",
+  "output": "D:/Bread/build/CMakeFiles/Bread.dir/imgui/examples/example_sdl2_opengl3/main.cpp.obj"
+},
+{
+  "directory": "D:/Bread/build",
+  "command": "C:\\MSYS64~1\\ucrt64\\bin\\c++.exe -ID:/Bread/src -ID:/Bread/core -ID:/Bread/utils -ID:/Bread/ui -ID:/Bread/imgui -ID:/Bread/imgui/backends -ID:/msys64/mingw64/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wfloat-conversion -fmodules-ts -fmodule-mapper=CMakeFiles\\Bread.dir\\imgui\\examples\\example_sdl2_sdlrenderer2\\main.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bread.dir\\imgui\\examples\\example_sdl2_sdlrenderer2\\main.cpp.obj -c D:\\Bread\\imgui\\examples\\example_sdl2_sdlrenderer2\\main.cpp",
+  "file": "D:/Bread/imgui/examples/example_sdl2_sdlrenderer2/main.cpp",
+  "output": "D:/Bread/build/CMakeFiles/Bread.dir/imgui/examples/example_sdl2_sdlrenderer2/main.cpp.obj"
+},
+{
+  "directory": "D:/Bread/build",
+  "command": "C:\\MSYS64~1\\ucrt64\\bin\\c++.exe -ID:/Bread/src -ID:/Bread/core -ID:/Bread/utils -ID:/Bread/ui -ID:/Bread/imgui -ID:/Bread/imgui/backends -ID:/msys64/mingw64/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wfloat-conversion -fmodules-ts -fmodule-mapper=CMakeFiles\\Bread.dir\\imgui\\examples\\example_sdl2_vulkan\\main.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bread.dir\\imgui\\examples\\example_sdl2_vulkan\\main.cpp.obj -c D:\\Bread\\imgui\\examples\\example_sdl2_vulkan\\main.cpp",
+  "file": "D:/Bread/imgui/examples/example_sdl2_vulkan/main.cpp",
+  "output": "D:/Bread/build/CMakeFiles/Bread.dir/imgui/examples/example_sdl2_vulkan/main.cpp.obj"
+},
+{
+  "directory": "D:/Bread/build",
+  "command": "C:\\MSYS64~1\\ucrt64\\bin\\c++.exe -ID:/Bread/src -ID:/Bread/core -ID:/Bread/utils -ID:/Bread/ui -ID:/Bread/imgui -ID:/Bread/imgui/backends -ID:/msys64/mingw64/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wfloat-conversion -fmodules-ts -fmodule-mapper=CMakeFiles\\Bread.dir\\imgui\\examples\\example_sdl2_wgpu\\main.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bread.dir\\imgui\\examples\\example_sdl2_wgpu\\main.cpp.obj -c D:\\Bread\\imgui\\examples\\example_sdl2_wgpu\\main.cpp",
+  "file": "D:/Bread/imgui/examples/example_sdl2_wgpu/main.cpp",
+  "output": "D:/Bread/build/CMakeFiles/Bread.dir/imgui/examples/example_sdl2_wgpu/main.cpp.obj"
+},
+{
+  "directory": "D:/Bread/build",
+  "command": "C:\\MSYS64~1\\ucrt64\\bin\\c++.exe -ID:/Bread/src -ID:/Bread/core -ID:/Bread/utils -ID:/Bread/ui -ID:/Bread/imgui -ID:/Bread/imgui/backends -ID:/msys64/mingw64/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wfloat-conversion -fmodules-ts -fmodule-mapper=CMakeFiles\\Bread.dir\\imgui\\examples\\example_sdl3_directx11\\main.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bread.dir\\imgui\\examples\\example_sdl3_directx11\\main.cpp.obj -c D:\\Bread\\imgui\\examples\\example_sdl3_directx11\\main.cpp",
+  "file": "D:/Bread/imgui/examples/example_sdl3_directx11/main.cpp",
+  "output": "D:/Bread/build/CMakeFiles/Bread.dir/imgui/examples/example_sdl3_directx11/main.cpp.obj"
+},
+{
+  "directory": "D:/Bread/build",
+  "command": "C:\\MSYS64~1\\ucrt64\\bin\\c++.exe -ID:/Bread/src -ID:/Bread/core -ID:/Bread/utils -ID:/Bread/ui -ID:/Bread/imgui -ID:/Bread/imgui/backends -ID:/msys64/mingw64/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wfloat-conversion -fmodules-ts -fmodule-mapper=CMakeFiles\\Bread.dir\\imgui\\examples\\example_sdl3_opengl3\\main.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bread.dir\\imgui\\examples\\example_sdl3_opengl3\\main.cpp.obj -c D:\\Bread\\imgui\\examples\\example_sdl3_opengl3\\main.cpp",
+  "file": "D:/Bread/imgui/examples/example_sdl3_opengl3/main.cpp",
+  "output": "D:/Bread/build/CMakeFiles/Bread.dir/imgui/examples/example_sdl3_opengl3/main.cpp.obj"
+},
+{
+  "directory": "D:/Bread/build",
+  "command": "C:\\MSYS64~1\\ucrt64\\bin\\c++.exe -ID:/Bread/src -ID:/Bread/core -ID:/Bread/utils -ID:/Bread/ui -ID:/Bread/imgui -ID:/Bread/imgui/backends -ID:/msys64/mingw64/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wfloat-conversion -fmodules-ts -fmodule-mapper=CMakeFiles\\Bread.dir\\imgui\\examples\\example_sdl3_sdlgpu3\\main.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bread.dir\\imgui\\examples\\example_sdl3_sdlgpu3\\main.cpp.obj -c D:\\Bread\\imgui\\examples\\example_sdl3_sdlgpu3\\main.cpp",
+  "file": "D:/Bread/imgui/examples/example_sdl3_sdlgpu3/main.cpp",
+  "output": "D:/Bread/build/CMakeFiles/Bread.dir/imgui/examples/example_sdl3_sdlgpu3/main.cpp.obj"
+},
+{
+  "directory": "D:/Bread/build",
+  "command": "C:\\MSYS64~1\\ucrt64\\bin\\c++.exe -ID:/Bread/src -ID:/Bread/core -ID:/Bread/utils -ID:/Bread/ui -ID:/Bread/imgui -ID:/Bread/imgui/backends -ID:/msys64/mingw64/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wfloat-conversion -fmodules-ts -fmodule-mapper=CMakeFiles\\Bread.dir\\imgui\\examples\\example_sdl3_sdlrenderer3\\main.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bread.dir\\imgui\\examples\\example_sdl3_sdlrenderer3\\main.cpp.obj -c D:\\Bread\\imgui\\examples\\example_sdl3_sdlrenderer3\\main.cpp",
+  "file": "D:/Bread/imgui/examples/example_sdl3_sdlrenderer3/main.cpp",
+  "output": "D:/Bread/build/CMakeFiles/Bread.dir/imgui/examples/example_sdl3_sdlrenderer3/main.cpp.obj"
+},
+{
+  "directory": "D:/Bread/build",
+  "command": "C:\\MSYS64~1\\ucrt64\\bin\\c++.exe -ID:/Bread/src -ID:/Bread/core -ID:/Bread/utils -ID:/Bread/ui -ID:/Bread/imgui -ID:/Bread/imgui/backends -ID:/msys64/mingw64/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wfloat-conversion -fmodules-ts -fmodule-mapper=CMakeFiles\\Bread.dir\\imgui\\examples\\example_sdl3_vulkan\\main.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bread.dir\\imgui\\examples\\example_sdl3_vulkan\\main.cpp.obj -c D:\\Bread\\imgui\\examples\\example_sdl3_vulkan\\main.cpp",
+  "file": "D:/Bread/imgui/examples/example_sdl3_vulkan/main.cpp",
+  "output": "D:/Bread/build/CMakeFiles/Bread.dir/imgui/examples/example_sdl3_vulkan/main.cpp.obj"
+},
+{
+  "directory": "D:/Bread/build",
+  "command": "C:\\MSYS64~1\\ucrt64\\bin\\c++.exe -ID:/Bread/src -ID:/Bread/core -ID:/Bread/utils -ID:/Bread/ui -ID:/Bread/imgui -ID:/Bread/imgui/backends -ID:/msys64/mingw64/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wfloat-conversion -fmodules-ts -fmodule-mapper=CMakeFiles\\Bread.dir\\imgui\\examples\\example_sdl3_wgpu\\main.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bread.dir\\imgui\\examples\\example_sdl3_wgpu\\main.cpp.obj -c D:\\Bread\\imgui\\examples\\example_sdl3_wgpu\\main.cpp",
+  "file": "D:/Bread/imgui/examples/example_sdl3_wgpu/main.cpp",
+  "output": "D:/Bread/build/CMakeFiles/Bread.dir/imgui/examples/example_sdl3_wgpu/main.cpp.obj"
+},
+{
+  "directory": "D:/Bread/build",
+  "command": "C:\\MSYS64~1\\ucrt64\\bin\\c++.exe -ID:/Bread/src -ID:/Bread/core -ID:/Bread/utils -ID:/Bread/ui -ID:/Bread/imgui -ID:/Bread/imgui/backends -ID:/msys64/mingw64/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wfloat-conversion -fmodules-ts -fmodule-mapper=CMakeFiles\\Bread.dir\\imgui\\examples\\example_win32_directx10\\main.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bread.dir\\imgui\\examples\\example_win32_directx10\\main.cpp.obj -c D:\\Bread\\imgui\\examples\\example_win32_directx10\\main.cpp",
+  "file": "D:/Bread/imgui/examples/example_win32_directx10/main.cpp",
+  "output": "D:/Bread/build/CMakeFiles/Bread.dir/imgui/examples/example_win32_directx10/main.cpp.obj"
+},
+{
+  "directory": "D:/Bread/build",
+  "command": "C:\\MSYS64~1\\ucrt64\\bin\\c++.exe -ID:/Bread/src -ID:/Bread/core -ID:/Bread/utils -ID:/Bread/ui -ID:/Bread/imgui -ID:/Bread/imgui/backends -ID:/msys64/mingw64/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wfloat-conversion -fmodules-ts -fmodule-mapper=CMakeFiles\\Bread.dir\\imgui\\examples\\example_win32_directx11\\main.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bread.dir\\imgui\\examples\\example_win32_directx11\\main.cpp.obj -c D:\\Bread\\imgui\\examples\\example_win32_directx11\\main.cpp",
+  "file": "D:/Bread/imgui/examples/example_win32_directx11/main.cpp",
+  "output": "D:/Bread/build/CMakeFiles/Bread.dir/imgui/examples/example_win32_directx11/main.cpp.obj"
+},
+{
+  "directory": "D:/Bread/build",
+  "command": "C:\\MSYS64~1\\ucrt64\\bin\\c++.exe -ID:/Bread/src -ID:/Bread/core -ID:/Bread/utils -ID:/Bread/ui -ID:/Bread/imgui -ID:/Bread/imgui/backends -ID:/msys64/mingw64/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wfloat-conversion -fmodules-ts -fmodule-mapper=CMakeFiles\\Bread.dir\\imgui\\examples\\example_win32_directx12\\main.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bread.dir\\imgui\\examples\\example_win32_directx12\\main.cpp.obj -c D:\\Bread\\imgui\\examples\\example_win32_directx12\\main.cpp",
+  "file": "D:/Bread/imgui/examples/example_win32_directx12/main.cpp",
+  "output": "D:/Bread/build/CMakeFiles/Bread.dir/imgui/examples/example_win32_directx12/main.cpp.obj"
+},
+{
+  "directory": "D:/Bread/build",
+  "command": "C:\\MSYS64~1\\ucrt64\\bin\\c++.exe -ID:/Bread/src -ID:/Bread/core -ID:/Bread/utils -ID:/Bread/ui -ID:/Bread/imgui -ID:/Bread/imgui/backends -ID:/msys64/mingw64/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wfloat-conversion -fmodules-ts -fmodule-mapper=CMakeFiles\\Bread.dir\\imgui\\examples\\example_win32_directx9\\main.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bread.dir\\imgui\\examples\\example_win32_directx9\\main.cpp.obj -c D:\\Bread\\imgui\\examples\\example_win32_directx9\\main.cpp",
+  "file": "D:/Bread/imgui/examples/example_win32_directx9/main.cpp",
+  "output": "D:/Bread/build/CMakeFiles/Bread.dir/imgui/examples/example_win32_directx9/main.cpp.obj"
+},
+{
+  "directory": "D:/Bread/build",
+  "command": "C:\\MSYS64~1\\ucrt64\\bin\\c++.exe -ID:/Bread/src -ID:/Bread/core -ID:/Bread/utils -ID:/Bread/ui -ID:/Bread/imgui -ID:/Bread/imgui/backends -ID:/msys64/mingw64/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wfloat-conversion -fmodules-ts -fmodule-mapper=CMakeFiles\\Bread.dir\\imgui\\examples\\example_win32_opengl3\\main.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bread.dir\\imgui\\examples\\example_win32_opengl3\\main.cpp.obj -c D:\\Bread\\imgui\\examples\\example_win32_opengl3\\main.cpp",
+  "file": "D:/Bread/imgui/examples/example_win32_opengl3/main.cpp",
+  "output": "D:/Bread/build/CMakeFiles/Bread.dir/imgui/examples/example_win32_opengl3/main.cpp.obj"
+},
+{
+  "directory": "D:/Bread/build",
+  "command": "C:\\MSYS64~1\\ucrt64\\bin\\c++.exe -ID:/Bread/src -ID:/Bread/core -ID:/Bread/utils -ID:/Bread/ui -ID:/Bread/imgui -ID:/Bread/imgui/backends -ID:/msys64/mingw64/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wfloat-conversion -fmodules-ts -fmodule-mapper=CMakeFiles\\Bread.dir\\imgui\\examples\\example_win32_vulkan\\main.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bread.dir\\imgui\\examples\\example_win32_vulkan\\main.cpp.obj -c D:\\Bread\\imgui\\examples\\example_win32_vulkan\\main.cpp",
+  "file": "D:/Bread/imgui/examples/example_win32_vulkan/main.cpp",
+  "output": "D:/Bread/build/CMakeFiles/Bread.dir/imgui/examples/example_win32_vulkan/main.cpp.obj"
+},
+{
+  "directory": "D:/Bread/build",
+  "command": "C:\\MSYS64~1\\ucrt64\\bin\\cc.exe -ID:/Bread/src -ID:/Bread/core -ID:/Bread/utils -ID:/Bread/ui -ID:/Bread/imgui -ID:/Bread/imgui/backends -ID:/msys64/mingw64/include -O3 -DNDEBUG -std=c11 -Wall -Wextra -Wconversion -o CMakeFiles\\Bread.dir\\imgui\\examples\\libs\\usynergy\\uSynergy.c.obj -c D:\\Bread\\imgui\\examples\\libs\\usynergy\\uSynergy.c",
+  "file": "D:/Bread/imgui/examples/libs/usynergy/uSynergy.c",
+  "output": "D:/Bread/build/CMakeFiles/Bread.dir/imgui/examples/libs/usynergy/uSynergy.c.obj"
+},
+{
+  "directory": "D:/Bread/build",
+  "command": "C:\\MSYS64~1\\ucrt64\\bin\\c++.exe -ID:/Bread/src -ID:/Bread/core -ID:/Bread/utils -ID:/Bread/ui -ID:/Bread/imgui -ID:/Bread/imgui/backends -ID:/msys64/mingw64/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wfloat-conversion -fmodules-ts -fmodule-mapper=CMakeFiles\\Bread.dir\\imgui\\imgui.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bread.dir\\imgui\\imgui.cpp.obj -c D:\\Bread\\imgui\\imgui.cpp",
+  "file": "D:/Bread/imgui/imgui.cpp",
+  "output": "D:/Bread/build/CMakeFiles/Bread.dir/imgui/imgui.cpp.obj"
+},
+{
+  "directory": "D:/Bread/build",
+  "command": "C:\\MSYS64~1\\ucrt64\\bin\\c++.exe -ID:/Bread/src -ID:/Bread/core -ID:/Bread/utils -ID:/Bread/ui -ID:/Bread/imgui -ID:/Bread/imgui/backends -ID:/msys64/mingw64/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wfloat-conversion -fmodules-ts -fmodule-mapper=CMakeFiles\\Bread.dir\\imgui\\imgui_demo.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bread.dir\\imgui\\imgui_demo.cpp.obj -c D:\\Bread\\imgui\\imgui_demo.cpp",
+  "file": "D:/Bread/imgui/imgui_demo.cpp",
+  "output": "D:/Bread/build/CMakeFiles/Bread.dir/imgui/imgui_demo.cpp.obj"
+},
+{
+  "directory": "D:/Bread/build",
+  "command": "C:\\MSYS64~1\\ucrt64\\bin\\c++.exe -ID:/Bread/src -ID:/Bread/core -ID:/Bread/utils -ID:/Bread/ui -ID:/Bread/imgui -ID:/Bread/imgui/backends -ID:/msys64/mingw64/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wfloat-conversion -fmodules-ts -fmodule-mapper=CMakeFiles\\Bread.dir\\imgui\\imgui_draw.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bread.dir\\imgui\\imgui_draw.cpp.obj -c D:\\Bread\\imgui\\imgui_draw.cpp",
+  "file": "D:/Bread/imgui/imgui_draw.cpp",
+  "output": "D:/Bread/build/CMakeFiles/Bread.dir/imgui/imgui_draw.cpp.obj"
+},
+{
+  "directory": "D:/Bread/build",
+  "command": "C:\\MSYS64~1\\ucrt64\\bin\\c++.exe -ID:/Bread/src -ID:/Bread/core -ID:/Bread/utils -ID:/Bread/ui -ID:/Bread/imgui -ID:/Bread/imgui/backends -ID:/msys64/mingw64/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wfloat-conversion -fmodules-ts -fmodule-mapper=CMakeFiles\\Bread.dir\\imgui\\imgui_tables.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bread.dir\\imgui\\imgui_tables.cpp.obj -c D:\\Bread\\imgui\\imgui_tables.cpp",
+  "file": "D:/Bread/imgui/imgui_tables.cpp",
+  "output": "D:/Bread/build/CMakeFiles/Bread.dir/imgui/imgui_tables.cpp.obj"
+},
+{
+  "directory": "D:/Bread/build",
+  "command": "C:\\MSYS64~1\\ucrt64\\bin\\c++.exe -ID:/Bread/src -ID:/Bread/core -ID:/Bread/utils -ID:/Bread/ui -ID:/Bread/imgui -ID:/Bread/imgui/backends -ID:/msys64/mingw64/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wfloat-conversion -fmodules-ts -fmodule-mapper=CMakeFiles\\Bread.dir\\imgui\\imgui_widgets.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bread.dir\\imgui\\imgui_widgets.cpp.obj -c D:\\Bread\\imgui\\imgui_widgets.cpp",
+  "file": "D:/Bread/imgui/imgui_widgets.cpp",
+  "output": "D:/Bread/build/CMakeFiles/Bread.dir/imgui/imgui_widgets.cpp.obj"
+},
+{
+  "directory": "D:/Bread/build",
+  "command": "C:\\MSYS64~1\\ucrt64\\bin\\c++.exe -ID:/Bread/src -ID:/Bread/core -ID:/Bread/utils -ID:/Bread/ui -ID:/Bread/imgui -ID:/Bread/imgui/backends -ID:/msys64/mingw64/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wfloat-conversion -fmodules-ts -fmodule-mapper=CMakeFiles\\Bread.dir\\imgui\\misc\\cpp\\imgui_stdlib.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bread.dir\\imgui\\misc\\cpp\\imgui_stdlib.cpp.obj -c D:\\Bread\\imgui\\misc\\cpp\\imgui_stdlib.cpp",
+  "file": "D:/Bread/imgui/misc/cpp/imgui_stdlib.cpp",
+  "output": "D:/Bread/build/CMakeFiles/Bread.dir/imgui/misc/cpp/imgui_stdlib.cpp.obj"
+},
+{
+  "directory": "D:/Bread/build",
+  "command": "C:\\MSYS64~1\\ucrt64\\bin\\c++.exe -ID:/Bread/src -ID:/Bread/core -ID:/Bread/utils -ID:/Bread/ui -ID:/Bread/imgui -ID:/Bread/imgui/backends -ID:/msys64/mingw64/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wfloat-conversion -fmodules-ts -fmodule-mapper=CMakeFiles\\Bread.dir\\imgui\\misc\\fonts\\binary_to_compressed_c.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bread.dir\\imgui\\misc\\fonts\\binary_to_compressed_c.cpp.obj -c D:\\Bread\\imgui\\misc\\fonts\\binary_to_compressed_c.cpp",
+  "file": "D:/Bread/imgui/misc/fonts/binary_to_compressed_c.cpp",
+  "output": "D:/Bread/build/CMakeFiles/Bread.dir/imgui/misc/fonts/binary_to_compressed_c.cpp.obj"
+},
+{
+  "directory": "D:/Bread/build",
+  "command": "C:\\MSYS64~1\\ucrt64\\bin\\c++.exe -ID:/Bread/src -ID:/Bread/core -ID:/Bread/utils -ID:/Bread/ui -ID:/Bread/imgui -ID:/Bread/imgui/backends -ID:/msys64/mingw64/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wfloat-conversion -fmodules-ts -fmodule-mapper=CMakeFiles\\Bread.dir\\imgui\\misc\\freetype\\imgui_freetype.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bread.dir\\imgui\\misc\\freetype\\imgui_freetype.cpp.obj -c D:\\Bread\\imgui\\misc\\freetype\\imgui_freetype.cpp",
+  "file": "D:/Bread/imgui/misc/freetype/imgui_freetype.cpp",
+  "output": "D:/Bread/build/CMakeFiles/Bread.dir/imgui/misc/freetype/imgui_freetype.cpp.obj"
+}
+]

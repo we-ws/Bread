@@ -1,0 +1,301 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "GNU",
+	"compiler-simulate-id" : "",
+	"config" : "Release",
+	"cxx-modules" : {},
+	"database-info" : null,
+	"dir-cur-bld" : "D:/Bread/build",
+	"dir-cur-src" : "D:/Bread",
+	"dir-top-bld" : "D:/Bread/build",
+	"dir-top-src" : "D:/Bread",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : 
+	[
+		"D:\\Bread\\src",
+		"D:\\Bread\\core",
+		"D:\\Bread\\utils",
+		"D:\\Bread\\ui",
+		"D:\\Bread\\imgui",
+		"D:\\Bread\\imgui\\backends",
+		"D:\\msys64\\mingw64\\include"
+	],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "D:/Bread/build/CMakeFiles/Bread.dir",
+	"sources" : 
+	{
+		"CMakeFiles/Bread.dir/CMakeFiles/4.2.0/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/Bread/build/CMakeFiles/4.2.0/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+		},
+		"CMakeFiles/Bread.dir/imgui/backends/imgui_impl_allegro5.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/Bread/imgui/backends/imgui_impl_allegro5.cpp"
+		},
+		"CMakeFiles/Bread.dir/imgui/backends/imgui_impl_android.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/Bread/imgui/backends/imgui_impl_android.cpp"
+		},
+		"CMakeFiles/Bread.dir/imgui/backends/imgui_impl_dx10.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/Bread/imgui/backends/imgui_impl_dx10.cpp"
+		},
+		"CMakeFiles/Bread.dir/imgui/backends/imgui_impl_dx11.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/Bread/imgui/backends/imgui_impl_dx11.cpp"
+		},
+		"CMakeFiles/Bread.dir/imgui/backends/imgui_impl_dx12.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/Bread/imgui/backends/imgui_impl_dx12.cpp"
+		},
+		"CMakeFiles/Bread.dir/imgui/backends/imgui_impl_dx9.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/Bread/imgui/backends/imgui_impl_dx9.cpp"
+		},
+		"CMakeFiles/Bread.dir/imgui/backends/imgui_impl_glfw.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/Bread/imgui/backends/imgui_impl_glfw.cpp"
+		},
+		"CMakeFiles/Bread.dir/imgui/backends/imgui_impl_glut.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/Bread/imgui/backends/imgui_impl_glut.cpp"
+		},
+		"CMakeFiles/Bread.dir/imgui/backends/imgui_impl_null.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/Bread/imgui/backends/imgui_impl_null.cpp"
+		},
+		"CMakeFiles/Bread.dir/imgui/backends/imgui_impl_opengl2.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/Bread/imgui/backends/imgui_impl_opengl2.cpp"
+		},
+		"CMakeFiles/Bread.dir/imgui/backends/imgui_impl_opengl3.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/Bread/imgui/backends/imgui_impl_opengl3.cpp"
+		},
+		"CMakeFiles/Bread.dir/imgui/backends/imgui_impl_sdl2.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/Bread/imgui/backends/imgui_impl_sdl2.cpp"
+		},
+		"CMakeFiles/Bread.dir/imgui/backends/imgui_impl_sdl3.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/Bread/imgui/backends/imgui_impl_sdl3.cpp"
+		},
+		"CMakeFiles/Bread.dir/imgui/backends/imgui_impl_sdlgpu3.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/Bread/imgui/backends/imgui_impl_sdlgpu3.cpp"
+		},
+		"CMakeFiles/Bread.dir/imgui/backends/imgui_impl_sdlrenderer2.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/Bread/imgui/backends/imgui_impl_sdlrenderer2.cpp"
+		},
+		"CMakeFiles/Bread.dir/imgui/backends/imgui_impl_sdlrenderer3.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/Bread/imgui/backends/imgui_impl_sdlrenderer3.cpp"
+		},
+		"CMakeFiles/Bread.dir/imgui/backends/imgui_impl_vulkan.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/Bread/imgui/backends/imgui_impl_vulkan.cpp"
+		},
+		"CMakeFiles/Bread.dir/imgui/backends/imgui_impl_wgpu.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/Bread/imgui/backends/imgui_impl_wgpu.cpp"
+		},
+		"CMakeFiles/Bread.dir/imgui/backends/imgui_impl_win32.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/Bread/imgui/backends/imgui_impl_win32.cpp"
+		},
+		"CMakeFiles/Bread.dir/imgui/examples/example_allegro5/main.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/Bread/imgui/examples/example_allegro5/main.cpp"
+		},
+		"CMakeFiles/Bread.dir/imgui/examples/example_android_opengl3/main.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/Bread/imgui/examples/example_android_opengl3/main.cpp"
+		},
+		"CMakeFiles/Bread.dir/imgui/examples/example_glfw_opengl2/main.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/Bread/imgui/examples/example_glfw_opengl2/main.cpp"
+		},
+		"CMakeFiles/Bread.dir/imgui/examples/example_glfw_opengl3/main.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/Bread/imgui/examples/example_glfw_opengl3/main.cpp"
+		},
+		"CMakeFiles/Bread.dir/imgui/examples/example_glfw_vulkan/main.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/Bread/imgui/examples/example_glfw_vulkan/main.cpp"
+		},
+		"CMakeFiles/Bread.dir/imgui/examples/example_glfw_wgpu/main.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/Bread/imgui/examples/example_glfw_wgpu/main.cpp"
+		},
+		"CMakeFiles/Bread.dir/imgui/examples/example_glut_opengl2/main.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/Bread/imgui/examples/example_glut_opengl2/main.cpp"
+		},
+		"CMakeFiles/Bread.dir/imgui/examples/example_null/main.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/Bread/imgui/examples/example_null/main.cpp"
+		},
+		"CMakeFiles/Bread.dir/imgui/examples/example_sdl2_directx11/main.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/Bread/imgui/examples/example_sdl2_directx11/main.cpp"
+		},
+		"CMakeFiles/Bread.dir/imgui/examples/example_sdl2_opengl2/main.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/Bread/imgui/examples/example_sdl2_opengl2/main.cpp"
+		},
+		"CMakeFiles/Bread.dir/imgui/examples/example_sdl2_opengl3/main.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/Bread/imgui/examples/example_sdl2_opengl3/main.cpp"
+		},
+		"CMakeFiles/Bread.dir/imgui/examples/example_sdl2_sdlrenderer2/main.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/Bread/imgui/examples/example_sdl2_sdlrenderer2/main.cpp"
+		},
+		"CMakeFiles/Bread.dir/imgui/examples/example_sdl2_vulkan/main.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/Bread/imgui/examples/example_sdl2_vulkan/main.cpp"
+		},
+		"CMakeFiles/Bread.dir/imgui/examples/example_sdl2_wgpu/main.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/Bread/imgui/examples/example_sdl2_wgpu/main.cpp"
+		},
+		"CMakeFiles/Bread.dir/imgui/examples/example_sdl3_directx11/main.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/Bread/imgui/examples/example_sdl3_directx11/main.cpp"
+		},
+		"CMakeFiles/Bread.dir/imgui/examples/example_sdl3_opengl3/main.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/Bread/imgui/examples/example_sdl3_opengl3/main.cpp"
+		},
+		"CMakeFiles/Bread.dir/imgui/examples/example_sdl3_sdlgpu3/main.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/Bread/imgui/examples/example_sdl3_sdlgpu3/main.cpp"
+		},
+		"CMakeFiles/Bread.dir/imgui/examples/example_sdl3_sdlrenderer3/main.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/Bread/imgui/examples/example_sdl3_sdlrenderer3/main.cpp"
+		},
+		"CMakeFiles/Bread.dir/imgui/examples/example_sdl3_vulkan/main.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/Bread/imgui/examples/example_sdl3_vulkan/main.cpp"
+		},
+		"CMakeFiles/Bread.dir/imgui/examples/example_sdl3_wgpu/main.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/Bread/imgui/examples/example_sdl3_wgpu/main.cpp"
+		},
+		"CMakeFiles/Bread.dir/imgui/examples/example_win32_directx10/main.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/Bread/imgui/examples/example_win32_directx10/main.cpp"
+		},
+		"CMakeFiles/Bread.dir/imgui/examples/example_win32_directx11/main.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/Bread/imgui/examples/example_win32_directx11/main.cpp"
+		},
+		"CMakeFiles/Bread.dir/imgui/examples/example_win32_directx12/main.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/Bread/imgui/examples/example_win32_directx12/main.cpp"
+		},
+		"CMakeFiles/Bread.dir/imgui/examples/example_win32_directx9/main.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/Bread/imgui/examples/example_win32_directx9/main.cpp"
+		},
+		"CMakeFiles/Bread.dir/imgui/examples/example_win32_opengl3/main.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/Bread/imgui/examples/example_win32_opengl3/main.cpp"
+		},
+		"CMakeFiles/Bread.dir/imgui/examples/example_win32_vulkan/main.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/Bread/imgui/examples/example_win32_vulkan/main.cpp"
+		},
+		"CMakeFiles/Bread.dir/imgui/imgui.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/Bread/imgui/imgui.cpp"
+		},
+		"CMakeFiles/Bread.dir/imgui/imgui_demo.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/Bread/imgui/imgui_demo.cpp"
+		},
+		"CMakeFiles/Bread.dir/imgui/imgui_draw.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/Bread/imgui/imgui_draw.cpp"
+		},
+		"CMakeFiles/Bread.dir/imgui/imgui_tables.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/Bread/imgui/imgui_tables.cpp"
+		},
+		"CMakeFiles/Bread.dir/imgui/imgui_widgets.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/Bread/imgui/imgui_widgets.cpp"
+		},
+		"CMakeFiles/Bread.dir/imgui/misc/cpp/imgui_stdlib.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/Bread/imgui/misc/cpp/imgui_stdlib.cpp"
+		},
+		"CMakeFiles/Bread.dir/imgui/misc/fonts/binary_to_compressed_c.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/Bread/imgui/misc/fonts/binary_to_compressed_c.cpp"
+		},
+		"CMakeFiles/Bread.dir/imgui/misc/freetype/imgui_freetype.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/Bread/imgui/misc/freetype/imgui_freetype.cpp"
+		}
+	}
+}
