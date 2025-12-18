@@ -9,6 +9,7 @@
 #include <iostream>
 #include <stdio.h>
 
+#include "imgui_binds.h"
 
 SDL_Window *window;
 bool WinDone;
@@ -16,7 +17,6 @@ SDL_Event WinEvent;
 int x_size, y_size;
 
 SDL_Thread* WINDOW_DATA_THREAD;
-
 
 int SDLCALL WindowDebug(void* data) {
   data = NULL;
@@ -33,47 +33,10 @@ int MainW() {
   WinDone = false;
   
   SDL_Init(SDL_INIT_VIDEO);
-  
-  window = SDL_CreateWindow(
-      "Bread",
-      1280,
-      720,
-      SDL_WINDOW_RESIZABLE
-    );
-
-  SDL_SetWindowMinimumSize(window, 800, 600);
-
-  //std::cout<<WinDone<<"\n";
-
-  while (!WinDone) {
-  
-  WINDOW_DATA_THREAD = SDL_CreateThread(WindowDebug, "WindowDbg", NULL);
-  
- // while (!WinDone) {
 
   
-  system("cls");
+  Imgui_OpenGL_SDL3(WinDone, window, WinEvent);
   
-
-   while( SDL_PollEvent(&WinEvent)) {
-    
-    if (WinEvent.type == SDL_EVENT_QUIT){
-      WinDone = true;
-      //std::cout<<WinDone<<"\n";
-      return 0;;
-    }
-   }
-  }
-
-  system("cls");
-  
-  SDL_DestroyWindow(window);
-
   SDL_Quit();
-
-  //std::cout<<WinDone<<"\n";
-
-
-  
   return 0;
 }
