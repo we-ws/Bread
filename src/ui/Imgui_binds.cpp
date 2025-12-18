@@ -1,3 +1,4 @@
+#include "GL/gl.h"
 #include "SDL3/SDL_error.h"
 #include "SDL3/SDL_events.h"
 #include "SDL3/SDL_oldnames.h"
@@ -35,7 +36,7 @@ int Imgui_OpenGL_SDL3 (bool WindowStat, SDL_Window *Window, SDL_Event event) {
   printf("Line 35 in Imgui_binds\n");
  // SDL_GLContext GL_Context = SDL_GL_CreateContext(Window);
 
-  SDL_WindowFlags flags = SDL_WINDOW_RESIZABLE | SDL_WINDOW_MAXIMIZED | SDL_WINDOW_OPENGL;
+  SDL_WindowFlags flags = SDL_WINDOW_RESIZABLE | SDL_WINDOW_OPENGL;
 
   Window = SDL_CreateWindow(
       "Bread",
@@ -45,7 +46,9 @@ int Imgui_OpenGL_SDL3 (bool WindowStat, SDL_Window *Window, SDL_Event event) {
     );
 
   SDL_GLContext GL_Context = SDL_GL_CreateContext(Window);
+
   
+    
   if (Window == nullptr) {
     printf("Window Creation Failure %s", SDL_GetError());
     return 1;
@@ -80,20 +83,57 @@ int Imgui_OpenGL_SDL3 (bool WindowStat, SDL_Window *Window, SDL_Event event) {
   style.ScaleAllSizes(main_scale);
   style.FontScaleDpi = main_scale;
 
+  ImVec4 clear_color = ImVec4(0.45f, 0.55f, 0.60f, 1.00f);
   printf("TEST3\n");
   while (!WindowStat) {
-    system("cls");
-    printf("Waiting Winstat to update\n");
+ //   system("cls");
+ //   printf("Waiting Winstat to update\n");
 
     while (SDL_PollEvent(&event)) {
-      system("cls");
-      printf("Waiting to poll event\n");
+ //     system("cls");
+ //     printf("Waiting to poll event\n");
 
       ImGui_ImplSDL3_ProcessEvent(&event);
       if (event.type == SDL_EVENT_QUIT) {
         WindowStat = true;        
-     }
+        }
     }
+
+//NewFrame
+    ImGui_ImplOpenGL3_NewFrame();
+    ImGui_ImplSDL3_NewFrame();
+    ImGui::NewFrame();
+
+
+    static float f = 0.0f;
+    static int counter = 0;
+
+    ImGui::Begin("Hello, world!");                          // Create a window called "Hello, world!" and append into it.
+    
+    ImGui::Text("This is some useful text.");               // Display some text (you can use a format strings too)    
+    ImGui::SliderFloat("float", &f, 0.0f, 1.0f);            // Edit 1 float using a slider from 0.0f to 1.0f
+    ImGui::ColorEdit3("clear color", (float*)&clear_color); // Edit 3 floats representing a color
+
+    if (ImGui::Button("Button"))                            // Buttons return true when clicked (most widgets return true when edited/activated)
+    counter++;
+      ImGui::SameLine();
+      ImGui::Text("counter = %d", counter);
+    ImGui::Text("Application average %.3f ms/frame (%.1f FPS)", 1000.0f / io.Framerate, io.Framerate);
+
+    ImGui::End();
+
+//    ImGui::Begin("TESTING BREAD");
+//    ImGui::Text("FPS: %.3f ", 1000.0f / io.Framerate);
+
+//    ImGui::End();
+//EndNewFrame
+
+  ImGui::Render();
+  glViewport(0, 0, (int)io.DisplaySize.x, (int)io.DisplaySize.y);
+  glClearColor(clear_color.x * clear_color.w, clear_color.y * clear_color.w, clear_color.z * clear_color.w, clear_color.w);
+  glClear(GL_COLOR_BUFFER_BIT);
+  ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
+  SDL_GL_SwapWindow(Window);
   }
 
  ImGui_ImplOpenGL3_Shutdown();
