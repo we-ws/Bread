@@ -4,6 +4,7 @@
 #include "SDL3/SDL_oldnames.h"
 #include "SDL3/SDL_video.h"
 #include "imgui_impl_opengl3.h"
+#include "imgui_internal.h"
 #include "window.h"
 
 
@@ -11,6 +12,7 @@
 #include "imgui_impl_dx11.h"
 #include "imgui_impl_sdl3.h"
 #include <SDL3/SDL.h>
+#include <cfloat>
 #include <cstdlib>
 #include <d3d11.h>
 #include <stdio.h>
@@ -74,6 +76,11 @@ int Imgui_OpenGL_SDL3 (bool WindowStat, SDL_Window *Window, SDL_Event event) {
 
   ImGui::StyleColorsDark();
 
+  int Window_Width;
+  int Window_Height;
+
+  ImVec2 MinSizeLWindow =  ImVec2(400,Window_Height); 
+  
   ImGui_ImplSDL3_InitForOpenGL(Window, GL_Context);
   ImGui_ImplOpenGL3_Init(GLSL_VERSION);
   printf("TEST2\n");
@@ -100,40 +107,57 @@ int Imgui_OpenGL_SDL3 (bool WindowStat, SDL_Window *Window, SDL_Event event) {
     }
 
 //NewFrame
+    SDL_GetWindowSize(Window, &Window_Width, &Window_Height);
     ImGui_ImplOpenGL3_NewFrame();
     ImGui_ImplSDL3_NewFrame();
     ImGui::NewFrame();
 
 
+
     static float f = 0.0f;
     static int counter = 0;
 
-    ImGui::Begin("Hello, world!");                          // Create a window called "Hello, world!" and append into it.
+    ImGui::SetNextWindowPos(ImVec2(0,0),ImGuiCond_Always);
+    ImGui::SetNextWindowSize(ImVec2( (Window_Width / 3.5),(Window_Height / 2.0)));
+    //ImGui::SetNextWindowSizeConstraints(MinSizeLWindow,  ImVec2(FLT_MAX,Window_Height));
+    
+    ImGui::Begin("Hello, world!",nullptr, ImGuiWindowFlags_NoCollapse | ImGuiWindowFlags_NoMove | ImGuiWindowFlags_NoResize);
     
     ImGui::Text("This is some useful text.");               // Display some text (you can use a format strings too)    
     ImGui::SliderFloat("float", &f, 0.0f, 1.0f);            // Edit 1 float using a slider from 0.0f to 1.0f
-    ImGui::ColorEdit3("clear color", (float*)&clear_color); // Edit 3 floats representing a color
+ //   ImGui::ColorEdit3("clear color", (float*)&clear_color); // Edit 3 floats representing a color
+    
+      
 
     if (ImGui::Button("Button"))                            // Buttons return true when clicked (most widgets return true when edited/activated)
     counter++;
       ImGui::SameLine();
       ImGui::Text("counter = %d", counter);
     ImGui::Text("Application average %.3f ms/frame (%.1f FPS)", 1000.0f / io.Framerate, io.Framerate);
-
+    ImGui::Text("Window Width: %i, Window Height: %i", Window_Width, Window_Height );
+    
+    ImVec2 GuiPos = ImGui::GetWindowPos();
+    ImGui::Text("Window Pos %.1f %.1f",GuiPos.x,GuiPos.y);
+    
     ImGui::End();
 
-//    ImGui::Begin("TESTING BREAD");
-//    ImGui::Text("FPS: %.3f ", 1000.0f / io.Framerate);
-
-//    ImGui::End();
 //EndNewFrame
 
+  
+  
+  ImGui::Begin("TEST WINDOW 2");
+  
+
+  ImGui::End();
+
   ImGui::Render();
+
   glViewport(0, 0, (int)io.DisplaySize.x, (int)io.DisplaySize.y);
   glClearColor(clear_color.x * clear_color.w, clear_color.y * clear_color.w, clear_color.z * clear_color.w, clear_color.w);
   glClear(GL_COLOR_BUFFER_BIT);
   ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
   SDL_GL_SwapWindow(Window);
+
   }
 
  ImGui_ImplOpenGL3_Shutdown();
